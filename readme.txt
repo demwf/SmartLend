@@ -28,7 +28,8 @@ git remote -v
 
 7. Коммиты
 Локально
+git add .
 git commit -m "First"
 
 затем Глобально
-
+git push -u origin master
