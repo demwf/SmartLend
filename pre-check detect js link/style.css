@@ -1,0 +1,58 @@
+body{
+	background: #4B79A1;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	color: white;
+	text-align:center;
+}
+p {
+	color: black;
+}
+.catch_id{
+	color: #CC3366;
+}
+
+.btn-view a{
+	text-decoration: none;
+	color: black;
+}
+
+.btn-view {
+	margin: 3%;
+	margin-top: 10%;
+	padding: 2%;
+	font-size: 120%;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -moz-transition-property: background;
+  -o-transition-property: background;
+  -webkit-transition-property: background;
+  transition-property: background;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  background: #E54028;
+  color: #FFFFFF;
+  text-shadow: none;
+  border: none; }
+  /* line 341, ../scss/partials/_buttons.scss */
+  .btn-view:hover, .button-flat-caution:focus {
+    color: #FFFFFF;
+    background: #e8543f; }
+  /* line 345, ../scss/partials/_buttons.scss */
+  .btn-view:active, .button-flat-caution.is-active, .button-flat-caution.active {
+    -moz-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    -webkit-transition-duration: 0s;
+    transition-duration: 0s;
+    background: #cd5240;
+    color: #ac2815; }
+  /* line 350, ../scss/partials/_buttons.scss */
+  .btn-view.disabled {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-appearance: none; }
