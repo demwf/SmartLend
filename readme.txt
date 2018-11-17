@@ -26,10 +26,21 @@ git config --global user.email "demwf@yandex.ru"
 6. Проверить соединение локального репозитория с удаленным:
 git remote -v
 
-7. Коммиты
-Локально
+7. Апдейт
+Добавить файлы в stage
 git add .
-git commit -m "First"
+git add --all
 
-затем Глобально
+Коммит локально
+git commit -m "Second"
+
+Коммит глобально (в гитхаб)
 git push -u origin master
+
+8. Информационные команды
+
+Просмотр коммитов  репозитории
+git log --oneline
+
+Просмотр статуса каталога
+git status
